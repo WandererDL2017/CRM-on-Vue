@@ -69,6 +69,9 @@ export default {
     email: {email, required},
     password: {required, minLength: minLength(8)}
   },
+  mounted(){
+    this.$message('Test')
+  },
   methods: {
     submitHandler() {
       if (this.$v.$invalid) {
