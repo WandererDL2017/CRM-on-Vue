@@ -59,7 +59,7 @@ export default {
     limit: {minValue: minValue(100)}
   },
   mounted() {
-    M.updateTextFields();
+    M.updateTextFields()
   },
   methods: {
     async submitHandler() {
